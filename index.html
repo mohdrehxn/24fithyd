@@ -993,31 +993,26 @@
                     </div>
                 </div>
                 <div class="contact-form">
-                    <div class="contact-form">
-                    <form id="contactForm" action="https://api.web3forms.com/submit" method="POST">
-                        <input type="hidden" name="access_key" value="f94fb4c7-d1c6-49eb-8c2f-b96d1da88e07">
-                        <input type="hidden" name="subject" value="New Contact Form Submission - Team24Fit HYD">
-                        <input type="hidden" name="from_name" value="Team24Fit HYD Website">
-
+                    <form id="contactForm" action="connect.php" method="POST">
                         <div class="form-group">
                             <label for="name">Full Name</label>
-                            <input type="text" id="name" name="name" class="form-control" placeholder="Your Name" required>
+                            <input type="text" id="name" class="form-control" name="FullName" ="Your Name" required>
                         </div>
                         <div class="form-group">
                            <label for="age">Age</label>
-                           <input type="number" id="age" name="age" class="form-control" placeholder="Your Age" min="1" max="120" required>
+                           <input type="number" id="age" class="form-control" name="Age" min="1" max="120" required>
                         </div>
                         <div class="form-group">
                             <label for="phone">Phone Number</label>
-                            <input type="tel" id="phone" name="phone" class="form-control" placeholder="Your Phone" required>
+                            <input type="tel" id="phone" class="form-control" name="Phone" placeholder="Your Phone">
                         </div>
-                        <div class="form-group">
-                            <label for="reference">Reference (How did you hear about us?)</label>
-                            <input type="text" id="reference" name="reference" class="form-control" placeholder="e.g. Friend, Instagram, Google" />
-                        </div>
+                            <div class="form-group">
+                                <label for="reference">Reference (How did you hear about us?)</label>
+                                <input type="text" id="reference" class="form-control" name="Reference" placeholder="e.g. Friend, Instagram, Google" />
+                            </div>
                         <div class="form-group">
                             <label for="service">Service Interested In</label>
-                            <select id="service" name="service" class="form-control" required>
+                            <select id="service" class="form-control" name="Service" required>
                                 <option value="">Select a Service</option>
                                 <option value="weight_management">Weight Management</option>
                                 <option value="weight_loss_gain">Weight Loss / Gain</option>
@@ -1037,7 +1032,7 @@
                         </div>
                         <div class="form-group">
                             <label for="message">Your Message</label>
-                            <textarea id="message" name="message" class="form-control" placeholder="Tell us about your health goals..."></textarea>
+                            <textarea id="message" class="form-control" placeholder="Tell us about your health goals..."></textarea>
                         </div>
                         <button type="submit" class="btn btn-block">Send Message</button>
                     </form>
@@ -1051,7 +1046,7 @@
         <div class="container">
             <div class="footer-container">
                 <div class="footer-col">
-                    <h3>Serenity Wellness</h3>
+                    <h3>TEAM24FIT HYD</h3>
                     <p>Your trusted partner in holistic health and wellness. We're dedicated to helping you achieve optimal wellbeing through personalized, evidence-based approaches.</p>
                     <div class="social-links">
                         <a href="wa.link/jjtvmt" target="_blank">
